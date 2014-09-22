@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0A9BE84-E38B-4656-9E45-7D514F48FC26</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TicTacToe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBBBD29BDA13DD09F21AA5BA4D63F582CC07DF0F</key>
+		<string>https://github.com/DPr00f/Swift-Tic-Tac-Toe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TicTacToe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBBBD29BDA13DD09F21AA5BA4D63F582CC07DF0F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DPr00f/Swift-Tic-Tac-Toe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBBBD29BDA13DD09F21AA5BA4D63F582CC07DF0F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBBBD29BDA13DD09F21AA5BA4D63F582CC07DF0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TicTacToe</string>
+		</dict>
+	</array>
+</dict>
+</plist>

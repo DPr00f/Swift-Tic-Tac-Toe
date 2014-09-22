@@ -12,6 +12,11 @@
 		CFC2C97D19B834C900DEAD2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC2C97B19B834C900DEAD2E /* Main.storyboard */; };
 		CFC2C97F19B834C900DEAD2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC2C97E19B834C900DEAD2E /* Images.xcassets */; };
 		CFC2C98B19B834C900DEAD2E /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C98A19B834C900DEAD2E /* TicTacToeTests.swift */; };
+		CFC2C99519B85EAA00DEAD2E /* Masks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C99419B85EAA00DEAD2E /* Masks.swift */; };
+		CFC2C99719B8618F00DEAD2E /* Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C99619B8618F00DEAD2E /* Rendering.swift */; };
+		CFC2C99919B862D300DEAD2E /* AppGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C99819B862D300DEAD2E /* AppGlobals.swift */; };
+		CFC2C99B19B8673D00DEAD2E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C99A19B8673D00DEAD2E /* Game.swift */; };
+		CFC2C99D19B8717200DEAD2E /* ComputerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC2C99C19B8717200DEAD2E /* ComputerLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		CFC2C98419B834C900DEAD2E /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC2C98919B834C900DEAD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC2C98A19B834C900DEAD2E /* TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTests.swift; sourceTree = "<group>"; };
+		CFC2C99419B85EAA00DEAD2E /* Masks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masks.swift; sourceTree = "<group>"; };
+		CFC2C99619B8618F00DEAD2E /* Rendering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rendering.swift; sourceTree = "<group>"; };
+		CFC2C99819B862D300DEAD2E /* AppGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGlobals.swift; sourceTree = "<group>"; };
+		CFC2C99A19B8673D00DEAD2E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CFC2C99C19B8717200DEAD2E /* ComputerLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				CFC2C97B19B834C900DEAD2E /* Main.storyboard */,
 				CFC2C97E19B834C900DEAD2E /* Images.xcassets */,
 				CFC2C97519B834C900DEAD2E /* Supporting Files */,
+				CFC2C99419B85EAA00DEAD2E /* Masks.swift */,
+				CFC2C99619B8618F00DEAD2E /* Rendering.swift */,
+				CFC2C99819B862D300DEAD2E /* AppGlobals.swift */,
+				CFC2C99A19B8673D00DEAD2E /* Game.swift */,
+				CFC2C99C19B8717200DEAD2E /* ComputerLogic.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -208,8 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC2C99719B8618F00DEAD2E /* Rendering.swift in Sources */,
+				CFC2C99B19B8673D00DEAD2E /* Game.swift in Sources */,
 				CFC2C97A19B834C900DEAD2E /* ViewController.swift in Sources */,
 				CFC2C97819B834C900DEAD2E /* AppDelegate.swift in Sources */,
+				CFC2C99D19B8717200DEAD2E /* ComputerLogic.swift in Sources */,
+				CFC2C99919B862D300DEAD2E /* AppGlobals.swift in Sources */,
+				CFC2C99519B85EAA00DEAD2E /* Masks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +350,7 @@
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -341,6 +362,7 @@
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
